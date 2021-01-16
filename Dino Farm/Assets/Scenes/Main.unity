@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 696552221}
   - component: {fileID: 696552222}
   m_Layer: 0
-  m_Name: download
+  m_Name: Dino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
