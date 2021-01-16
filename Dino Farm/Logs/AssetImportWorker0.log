@@ -1,0 +1,196 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/mtyle/Documents/GitHub/dino-farm/Dino Farm
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51828
+Successfully changed project path to: C:/Users/mtyle/Documents/GitHub/dino-farm/Dino Farm
+C:/Users/mtyle/Documents/GitHub/dino-farm/Dino Farm
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 42.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mtyle/Documents/GitHub/dino-farm/Dino Farm/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX Vega (ID=0x687f)
+    Vendor:   
+    VRAM:     8119 MB
+    Driver:   27.20.14501.18003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002540 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.244 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001031 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 39.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1886 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.3 MB.
+System memory in use after: 86.4 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2317.
+Total: 2.092100 ms (FindLiveObjects: 0.286900 ms CreateObjectMapping: 0.098100 ms MarkObjects: 1.657500 ms  DeleteObjects: 0.048600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001104 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+0x00007ff682c88c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff682c91069 (Unity) StackWalker::ShowCallstack
+0x00007ff68416564c (Unity) GetStacktrace
+0x00007ff685224803 (Unity) DebugStringToFile
+0x00007ff682aaf87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff682ac2fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff682aca339 (Unity) MonoManager::ReloadAssembly
+0x00007ff683e743a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff683e7484e (Unity) LoadUserAssemblies
+0x00007ff684297f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6843620d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff684364230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6843679be (Unity) asio::io_service::run
+0x00007ff6842ddd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6842ddda0 (Unity) RunAssetImporterV2
+0x00007ff6837fd73b (Unity) Application::InitializeProject
+0x00007ff684172be2 (Unity) WinMain
+0x00007ff685fb8fc6 (Unity) __scrt_common_main_seh
+0x00007ffc235f7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffc237dd0d1 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+0x00007ff682c88c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff682c91069 (Unity) StackWalker::ShowCallstack
+0x00007ff68416564c (Unity) GetStacktrace
+0x00007ff685224803 (Unity) DebugStringToFile
+0x00007ff682acbf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff682ac330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff682aca339 (Unity) MonoManager::ReloadAssembly
+0x00007ff683e743a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff683e7484e (Unity) LoadUserAssemblies
+0x00007ff684297f88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007ff6843620d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff684364230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6843679be (Unity) asio::io_service::run
+0x00007ff6842ddd50 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6842ddda0 (Unity) RunAssetImporterV2
+0x00007ff6837fd73b (Unity) Application::InitializeProject
+0x00007ff684172be2 (Unity) WinMain
+0x00007ff685fb8fc6 (Unity) __scrt_common_main_seh
+0x00007ffc235f7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffc237dd0d1 (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.469 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1880 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.2 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2320.
+Total: 1.892100 ms (FindLiveObjects: 0.207900 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.620000 ms  DeleteObjects: 0.020700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 49.5 MB.
+System memory in use after: 49.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2320.
+Total: 1.976800 ms (FindLiveObjects: 0.179200 ms CreateObjectMapping: 0.045100 ms MarkObjects: 1.734300 ms  DeleteObjects: 0.017400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a2c4dac9df7c17871e19a3b74f0e9f') in 0.007362 seconds
+  Import took 0.010309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000835 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a2c4dac9df7c17871e19a3b74f0e9f') in 0.002918 seconds
+  Import took 0.005417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.508697 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(af82092abdf5fc947a06afe5013215b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(af82092abdf5fc947a06afe5013215b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0406340409c6806f57ad66ce6def02') in 0.006182 seconds
+  Import took 0.008812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.130961 seconds.
+  path: Assets/download.jpg
+  artifactKey: Guid(e2e42d2f73e5e70409be59e0919bda3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/download.jpg using Guid(e2e42d2f73e5e70409be59e0919bda3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9a7d8f9e85e734d5dec472576e9ff1') in 0.132551 seconds
+  Import took 0.135500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.913108 seconds.
+  path: Assets/Images
+  artifactKey: Guid(6cf47afef59d1714e933c955cd66b764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images using Guid(6cf47afef59d1714e933c955cd66b764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54857f15f8ca5e9c4435368ce212010') in 0.006428 seconds
+  Import took 0.009139 seconds .
+
